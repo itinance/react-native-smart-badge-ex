@@ -1,5 +1,5 @@
 {
-  "name": "@react-native-component/react-native-smart-badge",
+  "name": "@itinance/react-native-smart-badge-ex",
   "version": "1.1.2",
   "description": "A smart auto-fit badge for React Native apps",
   "main": "Badge.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-native-component/react-native-smart-badge.git"
+    "url": "git+https@github.com:itinance/react-native-smart-badge-ex.git"
   },
   "keywords": [
     "react-native",
@@ -19,7 +19,10 @@
   "author": "HISAME SHIZUMARU",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react-native-component/react-native-smart-badge/issues"
+    "url": "https://github.com/itinance/react-native-smart-badge-exissues"
   },
-  "homepage": "https://github.com/react-native-component/react-native-smart-badge#readme"
+  "homepage": "https://github.com/itinance/react-native-smart-badge-ex#readme",
+  "dependencies": {
+    "prop-types": "15.6.0"
+  }
 }
