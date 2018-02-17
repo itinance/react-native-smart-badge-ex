@@ -1,8 +1,8 @@
-# react-native-smart-badge
+# react-native-smart-badge-ex
 
-[![npm](https://img.shields.io/npm/v/react-native-smart-badge.svg)](https://www.npmjs.com/package/react-native-smart-badge)
-[![npm](https://img.shields.io/npm/dm/react-native-smart-badge.svg)](https://www.npmjs.com/package/react-native-smart-badge)
-[![npm](https://img.shields.io/npm/dt/react-native-smart-badge.svg)](https://www.npmjs.com/package/react-native-smart-badge)
+[![npm](https://img.shields.io/npm/v/react-native-smart-badge.svg)](https://www.npmjs.com/package/react-native-smart-badge-ex)
+[![npm](https://img.shields.io/npm/dm/react-native-smart-badge.svg)](https://www.npmjs.com/package/react-native-smart-badge-ex)
+[![npm](https://img.shields.io/npm/dt/react-native-smart-badge.svg)](https://www.npmjs.com/package/react-native-smart-badge-ex)
 [![npm](https://img.shields.io/npm/l/react-native-smart-badge.svg)](https://github.com/react-native-component/react-native-smart-badge/blob/master/LICENSE)
 
 A smart autofit badge for react-native apps, written in JS for cross-platform support.
@@ -18,7 +18,7 @@ This component is compatible with React Native 0.25 and newer.
 ## Installation
 
 ```
-npm install react-native-smart-badge --save
+yarn add react-native-smart-badge-ex
 ```
 
 ## Full Demo
@@ -27,8 +27,8 @@ see [ReactNativeComponentDemos][0]
 
 ## Usage
 
-Install the package from npm with `npm install react-native-smart-badge --save`.
-Then, require it from your app's JavaScript files with `import Badge from 'react-native-smart-badge'`.
+Install the package from npm with `yarn add react-native-smart-badge-ex`.
+Then, require it from your app's JavaScript files with `import Badge from 'react-native-smart-badge-ex'`.
 
 ```js
 import React, {
@@ -40,7 +40,7 @@ import {
   Text,
 } from 'react-native'
 
-import Badge from 'react-native-smart-badge'
+import Badge from 'react-native-smart-badge-ex'
 import Button from 'react-native-smart-button'
 
 export default class NumberBadge extends Component {
