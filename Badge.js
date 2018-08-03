@@ -10,7 +10,6 @@ import React, {
 } from 'react'
 
 import PropTypes from 'prop-types'
-import ViewPropTypes from 'react-native';
 
 import {
     View,
@@ -48,7 +47,7 @@ export default class Badge extends Component {
     static propTypes = {
         //borderRadius: PropTypes.number,   //number 18, null 5
         extraPaddingHorizontal: PropTypes.number,
-        style: ViewPropTypes.style,
+        style: PropTypes.object,
         minHeight: PropTypes.number,
         minWidth: PropTypes.number,
     }
